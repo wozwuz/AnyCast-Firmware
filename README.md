@@ -1,2 +1,4 @@
 # AnyCast-Firmware
 Firmware of a chromecast knockoff  
+
+I recently bought this cheap knockoff chromecast called "AnyCast" .It has two modes of operation DLNA and Miracast. I was interested in its firmware so went on internet and found some available but they had high entropy and were not usable for poking around. Running a quick binwalk on its firmware yielded good results .So i extracted it and yup it is linux while others assumed it was some custom proprietary firmware. One weird thing i noticed was that it had the linux filesystem that you might find on a generic a linux device but they were empty and all the binaries,configuration files were placed on the root of filesystem and not the dedicated directories.I have linked the orignal firmware-file and extracted firmware as well as some images of it. So Enjoy!
